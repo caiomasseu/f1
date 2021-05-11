@@ -1,23 +1,34 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="pt-br">
 <!-- CODIGO SIMPLES SO PRA DEIXAR O PLAYER PRA GALERA QUE CURTE F1 MAS N QUER AQUELES SITES COM ANUNCIOS INSUPORTAVEIS, ABERTO A CONTRIBUIÇÕES PARA MELHORAR O CODIGO -->
+<!-- EVENTUAIS ANUNCIOS SAO NATIVOS DOS PLAYERS-->
 <html>
 <head>
 	<title>F1 AO VIVO</title>
 		<link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAk5OTAD09PQBfX/QAJSXgAMDAwAA2NjYAKCgiAFpa2wCFhYUAGBhdAAQEBAAwMKcAl5eXAP///wBjY7sABAQYAKmpqQAFBTEAsrKyAAICDgAPDw8AcHD/AEFBQABSUlsAenrkABERaQAYGZYAra2tAAEBCABXV1cAcnK9AExMiABaWocAExMTAFZWxQBQUFAAAwMDAA0NTgBiYmIA9fX1AJaWlgBAQEAAdHR0AKioqABsbJgARUVlAHx88gChoaEAAQEGACAgwwBmZnQAVFRUAF1dXQAQEBAAS0v0AG1t7QAiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAsiFQUlAQAAAAAAAAAAADQOJwAAAAAEGhAAAAAAAAAADg42NgAUMTIbJgAAAAAAAAAODg45BzcMChIdAAAAACoCHA4eBgIuAwgjIBcAACQkJCQODg4kJBY4DyEYJAAnJycnNSgoKBMnLxkfLTMAKysrKysrKysrKysrKysrAAkJCQkJCQkJCQkJCQkJCQAADQ0NKSkNKQ0NKQ0pDQAAAAAsESwsERERESwREQAAAP//AACAAwAAgAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAgAMAAMAHAAA=" rel="icon" type="image/x-icon" />
 </head>
 <body>
+
+<!-- COPIAR  -->
+<p>Repositorio de streams esportivas</p>
+
+<input type="text" value="http://sportzonline.to/prog.txt" id="myInput">
+<button onclick = "myFunction()">Copiar</button>
+<script>
+	function myFunction() {
+		var copyText = document.getElementById("myInput");
+		copyText.select();
+		copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  		document.execCommand("copy");
+  
+  }</script>
+
 <center>
 <img src="https://pbs.twimg.com/profile_images/1175771837269045249/1Fbz_yd2.png" width="400">
 <br><br>
 
-<a href="https://daddylive.co/stream2watch/stream-60.php" class="myButton">Sky Sports F1</a>
-<a href="https://daddylive.co/stream2watch/stream-38.php" class="myButton">Sky Sports</a>
-<a href="https://v6.sportzonline.to/channels/hd/hd2.php" class="myButton">Player 3</a>
-<a href="" class="myButton">Player 4</a>
-<a href="" class="myButton">Player 5</a>
-<br>
 
-<style type="text/css">.myButton {
+
+<style type="text/css">.myButton{
 	box-shadow: 0px 10px 14px -7px #ff0000;
 	background:linear-gradient(to bottom, #ff0000 5%, #ff0000 100%);
 	background-color:#ff0000;
@@ -43,10 +54,130 @@
 </style>     
 <br>
 
+	<script>
+	function exibirIframe(){
+    		document.getElementById("iframe").style.display = "block";
+			document.getElementById("iframe1").style.display = "none";
+			document.getElementById("iframe2").style.display = "none";
+			document.getElementById("iframe3").style.display = "none";
+			document.getElementById("iframe4").style.display = "none";
+	}
 
-<iframe loading="lazy" src="https://daddylive.co/stream2watch/stream-60.php" width="50%" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe> 
-</center>
+
+	function exibirIframe1(){
+			document.getElementById("iframe").style.display = "none";
+			document.getElementById("iframe2").style.display = "none";
+			document.getElementById("iframe3").style.display = "none";
+			document.getElementById("iframe4").style.display = "none";
+			document.getElementById("iframe1").style.display = "block";
+	}
+
+	function exibirIframe2(){
+			document.getElementById("iframe").style.display = "none";
+			document.getElementById("iframe1").style.display = "none";
+			document.getElementById("iframe3").style.display = "none";
+			document.getElementById("iframe4").style.display = "none";
+			document.getElementById("iframe2").style.display = "block";
+	}
+
+	function exibirIframe3(){
+			document.getElementById("iframe").style.display = "none";
+			document.getElementById("iframe1").style.display = "none";
+			document.getElementById("iframe2").style.display = "none";
+			document.getElementById("iframe4").style.display = "none";
+			document.getElementById("iframe3").style.display = "block";
+	}
+
+	function exibirIframe4(){
+			document.getElementById("iframe").style.display = "none";
+			document.getElementById("iframe1").style.display = "none";
+			document.getElementById("iframe2").style.display = "none";
+			document.getElementById("iframe3").style.display = "none";
+			document.getElementById("iframe4").style.display = "block";
+	}
+	</script>
+
+<style>
+#iframe{
+    display: none;
+}
+
+#iframe1{
+    display: none;
+}
+#iframe2{
+    display: none;
+}
+
+#iframe3{
+    display: none;
+}
+
+#iframe4{
+    display: none;
+}
+</style>
+
+<a class="myButton" onclick="exibirIframe();">Sky Sports F1</a>
+<a class="myButton" onclick="exibirIframe1();">Sky Sports</a>
+<a class="myButton" onclick="exibirIframe2();">Band</a>
+<a class="myButton" onclick="exibirIframe3();">Bandsports</a>
+<a class="myButton" onclick="exibirIframe4();">Sky Sports #2</a>
 <br><br>
-	
+
+
+<iframe
+	width="70%" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"
+        id="iframe"
+        src="https://daddylive.co/stream2watch/stream-60.php"
+        scrolling="no">
+</iframe>
+
+<iframe
+	    width="70%" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"
+            id="iframe1"
+            src="https://daddylive.co/stream2watch/stream-38.php"
+            scrolling="no"></iframe>
+
+
+<div>
+    <iframe
+			width="70%" height="80%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"
+            id="iframe2"
+            src="https://player.band.com.br/aovivo/?transmissao=band"
+            scrolling="no"></iframe>
+</div>
+
+
+<div>
+    <iframe
+			width="70%" height="80%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"
+            id="iframe3"
+            src="https://player.band.com.br/aovivo/?transmissao=bandsports"
+            scrolling="no"></iframe>
+</div>
+
+
+<div>
+    <iframe
+			width="70%" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"
+            id="iframe4"
+            src="https://f1livegp.me/f1/live.php"
+            scrolling="no"></iframe>
+</div>	
+
+
+</center>
+<br>
+
 </body>
+
+<footer>
+	<center>
+	<p>EVENTUAIS ANUNCIOS S&Atilde;O NATIVOS DOS PLAYERS DE VIDEO</p>
+	<script>var _uox = _uox || {};(function() {var s=document.createElement("script");
+		s.src="https://static.usuarios-online.com/uo2.min.js";document.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<a href="https://www.usuarios-online.com/es/" data-id="2ae27c1dc28f7e474ced3b1268b02e19" data-type="color" data-c1="#555555" data-c2="#ff0000" data-c3="#ff0000" target="_blank" id="uox_link"></a>
+	</center>
+</footer>
 </html>
